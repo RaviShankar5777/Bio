@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="navbar-logo">
+      <Link to="/Bio" className="navbar-logo">
         <img src={logo} alt="" />
       </Link>
       <div className="menu-icon" onClick={handleClick}>
@@ -43,7 +43,7 @@ const Navbar = () => {
       </div>
       <ul className={click ? "nav-menu-active" : "nav-menu"}>
         <li className="nav-item">
-          <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+          <Link to="/Bio" className="nav-links" onClick={closeMobileMenu}>
             Home
           </Link>
         </li>

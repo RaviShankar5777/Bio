@@ -9,7 +9,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-
+import logo from "../../Assets/bio-logo.jpg";
 
 const Footer = () => {
   return (
@@ -55,28 +55,25 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-    
-    <div className="follow-us-section">
+
+      <div className="follow-us-section">
         <h2>Follow US</h2>
         <div className="follow-us-section-mini-container">
-            <div className="follow-icons-container">
-                <IoLogoWhatsapp className="follow-icon"/>
-                <FaFacebook className="follow-icon"/>
-                <FaLinkedin  className="follow-icon"/>
-                <FaInstagram  className="follow-icon"/>
-                <FaPinterest  className="follow-icon"/>
-                <FaXTwitter  className="follow-icon"/>
-                <FaYoutube  className="follow-icon"/>
-
-            </div>
-            <hr/>
-            <div>
-                <img src="http://biobhumi.co.in/images/logo_new.png" alt="logo" className="footer-logo"/>
-                </div>
-
+          <div className="follow-icons-container">
+            <IoLogoWhatsapp className="follow-icon" />
+            <FaFacebook className="follow-icon" />
+            <FaLinkedin className="follow-icon" />
+            <FaInstagram className="follow-icon" />
+            <FaPinterest className="follow-icon" />
+            <FaXTwitter className="follow-icon" />
+            <FaYoutube className="follow-icon" />
+          </div>
+          <hr />
+          <div>
+            <img src={logo} alt="logo" className="footer-logo" />
+          </div>
         </div>
-    </div>
-
+      </div>
     </div>
   );
 };
