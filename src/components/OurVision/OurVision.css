@@ -1,0 +1,47 @@
+.our-vision-main-container {
+  /* https://cdn.pixabay.com/photo/2016/11/29/03/20/black-and-white-1867029_1280.jpg' */
+  background-image: url("  https://cdn.pixabay.com/photo/2014/04/18/15/35/lawn-327333_1280.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  /* filter:opacity(0.5) */
+}
+.our-vision-header {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.our-vision-header hr {
+  width: 170px;
+  border: 1px solid #ffa200;
+  /* background: -webkit-linear-gradient(#ffa200, #00146d); */
+}
+.our-vision-container {
+  width: 100%;
+  display: flex;
+
+  height: 60vh;
+}
+.our-vision-container-part-1 {
+  width: 50%;
+  /* background-color: aqua; */
+
+  /* background: -webkit-linear-gradient(#030009, #086201);
+  border-radius:22% 78% 100% 0% / 0% 100% 0% 100%  ; */
+}
+
+.our-vision-container-part-2 {
+  width: 50%;
+  color: rgb(254, 253, 255);
+  opacity: 1;
+  /* background-color: aqua; */
+  /* background-color: black; */
+  backdrop-filter: blur(6px) saturate(141%);
+  -webkit-backdrop-filter: blur(6px) saturate(141%);
+  background-color: rgba(17, 25, 40, 0.69);
+  border-top-left-radius: 10px;
+  padding: 20px;
+}

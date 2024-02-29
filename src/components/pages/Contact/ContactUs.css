@@ -1,0 +1,23 @@
+.contact-main {
+  height: 90vh;
+
+  background-image: url(https://images.unsplash.com/photo-1444392061186-9fc38f84f726?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.heading {
+  width: 15%;
+  border: 1px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.heading h1 {
+  color: white;
+}

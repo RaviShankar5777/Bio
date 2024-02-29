@@ -1,0 +1,132 @@
+.footer-container{
+    /* background: rgb(252,176,69);
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(10,97,19,1) 0%, rgba(30,10,88,1) 100%); */
+    background-color: rgb(12, 51, 2);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.footer-address-section h2{
+    font-size: 45px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#ffa200, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+.footer-address-section{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:20px;
+
+}
+.footer-address-section div{
+    display: flex;
+    gap:10px;
+    /* width:25%; */
+    cursor: pointer;
+   
+}
+.footer-address-section div p{
+    color:rgb(162, 162, 162);
+    width:50%;
+    cursor: pointer;
+}
+.footer-address-section div p:hover{
+    color:#ffffff;
+}
+
+.footer-address-section a {
+    text-decoration: none;
+    color:rgb(143, 143, 143);
+}
+
+.footer-address-section a:hover{
+    color: #ffffff;
+}
+
+.footer-icon{
+    color:rgb(255, 150, 2);
+    font-size:25px;
+}
+
+.footer-links-section {
+    padding:20px;
+}
+.footer-links-section h2{
+    font-weight: bold;
+    background: -webkit-linear-gradient(#ffa200, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:20px 0px ;
+   
+}
+
+.footer-links-section ul {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    list-style-type: none;
+    color:rgb(143, 143, 143);
+}
+.footer-ul-links-section{
+    display: flex;
+    gap:40px;
+}
+
+.footer-links-section ul li{
+    cursor: pointer;
+}
+.footer-links-section ul li:hover{
+    color:#ffffff;
+}
+.follow-us-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-us-section-mini-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.follow-us-section-mini-container hr{
+    border: 2px solid #ffa200;
+    width: 100%;
+}
+
+
+
+
+.follow-us-section h2{
+    font-weight: bold;
+    background: -webkit-linear-gradient(#ffa200, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:20px;
+
+}
+.follow-icons-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:15px;
+    /* width:60%; */
+}
+.follow-icon{
+    color:#ffa200;
+    font-size: 25px;
+    cursor: pointer;
+}
+.follow-icon:hover{
+    color: #ffffff;
+}
+.footer-logo{
+    height:100px;
+}

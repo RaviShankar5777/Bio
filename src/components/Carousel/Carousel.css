@@ -1,0 +1,17 @@
+.carousel-container{
+    background-color: transparent;
+   width:90%;
+    margin-left:0px;
+    padding:20px 70px;
+}
+.carousel-img{
+    height:300px;
+   width: 300px;
+}
+.slick-list{
+    margin:0px -50px;
+}
+.slick-slide >div{
+    margin:0 20px;
+
+}
